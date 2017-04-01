@@ -60,8 +60,8 @@ def main():
     print ("running")
     time.sleep(2)
 
-    driver.find_element_by_xpath('//*[@id="user_email"]').send_keys(USERNAME)#"dekarosa22")
-    driver.find_element_by_xpath('//*[@id="user_password"]').send_keys(PASSWORD)#"dekarosa22")
+    driver.find_element_by_xpath('//*[@id="user_email"]').send_keys(USERNAME)#"")
+    driver.find_element_by_xpath('//*[@id="user_password"]').send_keys(PASSWORD)#"")
     driver.find_elements_by_xpath('//*[@id="new_user"]/div[1]/input[3]')[0].click()
     #text_file = open("mailList.txt", "r")
     with open('mailList.txt') as f:
